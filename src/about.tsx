@@ -14,7 +14,7 @@ const About = ({data, func}: Props) => {
             {data.map((item,idx) =>(
                 <h4 key={idx}>{item}</h4>
         ))}
-        </div>
+        </div> //eiei
     );
 };
 
